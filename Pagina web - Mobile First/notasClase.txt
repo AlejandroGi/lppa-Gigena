@@ -1,0 +1,43 @@
+Selectores ->> elemento (todos los p)(todos los div), calase ., ID # (unico), atributo (especial para js), pseudoclases (:hoover, :visited, firstChile), operadores (aritmeticos?) etiqueta<>, , ,
+elemento
+clase
+ID
+atributo
+pseudoclases
+operadores
+
+P>Li <--- Esta mal. P>Lu>Li <-- Puede ser.
+
+> hijo directo
+
+div elemento de bloque sin significado semantico.
+span elemento de linea sin significado semantico.
+Li elemeento de bloque
+ul elemento de bloque.
+
+en el css, el espacio corresponde a "hijo de" .li a{}
+
+p negrita li a.activa -- analizar 
+" " que sea hijo de
+. que tenga  
+
+Formas de aplicar estilos --> En linea, hoja de estilo externa(link), estiqueta <styles>
+Especificadad, la prioridad a la hora de aplicar el css. Siendo el ID la mas espcf.
+
+el archivo reset.css va primero (buscar)
+
+regla de especificidad (buscar)
+especificidad --> + inline (etiqueta sytle en el html), 
+
+
+xs, s,m, lg tipos de tamaños de pantalla.
+
+
+html es flexible sin css.
+
+media-query --> breakpoints.
+
+flexbox-
+grid-
+
+viewport para concretar la escala celular/televisor

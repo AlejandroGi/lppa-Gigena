@@ -1,0 +1,172 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family:'Encode Sans','Arial','Encode Sans','Roboto','Open Sans', sans-serif;
+    color: #202020;
+    box-sizing: border-box;
+
+  }
+  
+  a {
+    color: #202020;
+    text-decoration: none;
+    
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Encode Sans", sans-serif;
+  }
+  
+  
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    background-color: var(--secundario);
+    font-family:'Courier New', Courier, monospace;
+    color: var(--blanco);
+  }
+  
+#header .flex-container{
+  display: flex;
+  flex-flow: row wrap;  /* flow = direction (fila o colum) + wrap (normal o invertido) -- Si no entra salta a la siguiente linea */
+  justify-content: space-between;
+  padding: 0 20px;
+  height: 3.3rem;
+  align-items:center;
+}
+
+
+#header .flex-container .flex-container-left .logo a{
+  box-sizing: border-box;
+  color: var(--blanco);
+  font-weight: 700;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+#header .flex-container .flex-container-right .icon-tabler-menu-2 svg{
+  cursor: pointer;
+  width: 32px;
+  height: 24px;
+
+}
+
+/*--------------------------------------------------------------
+# Publicidad 
+--------------------------------------------------------------*/
+#index .container{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  
+}
+#publicidad div,p{
+  color:red;
+  width: 100%;
+  height: 400px;
+}
+#publicidad p{
+  color:red;
+}
+
+/*--------------------------------------------------------------
+# Index 
+--------------------------------------------------------------*/
+#index .flex-container{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  
+}
+
+#index .flex-container .text{
+  border-top-color: var(--secundario);
+  border-top-width: 0.3rem;
+  border-top-style:outset;
+  box-sizing:border-box;
+
+  color: var(--secundario);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  line-height: 1;
+  padding-top: 4px;
+  margin: 27px 0 20px 20px;
+}
+
+/*No funciona*/
+
+/*--------------------------------------------------------------
+# Notifica 
+--------------------------------------------------------------*/
+
+#noticia{
+  display:flex ;
+  flex-flow: column wrap;
+  box-sizing:border-box;
+}
+
+#noticia .titulo{
+  font-size: 28px;
+  font-weight: 800;
+  font-family:Arial, Helvetica, sans-serif;
+
+  color: var(--primario);
+  line-height: 34px;
+  padding: 0 20px;
+  margin-bottom: 15px;
+  
+}
+
+#noticia .subtitulo{
+  font-size: 18px;
+  font-family: "Encode Sans", sans-serif;
+
+  color: var(--primario);
+  line-height: 26px;
+  padding: 0 20px;
+  margin-bottom: 25px;
+  
+}
+
+#Noticia img{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+#Noticia h1{
+  margin: 0 0px 10px 0;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1rem;
+  color: black;
+
+}
+
+#Noticia h2{
+  margin: 2rem 0 1rem 0;
+  font-size: 18px;
+  line-height: 1rem;
+  color: black;
+
+}
+
+#Noticia .subtitulo{
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #424242;
+
+}
+
+#Noticia .section p{
+  font-weight: 400;
+  font-family: "Roboto";
+  font-size: 1.125rem;
+  line-height: 1.875rem;
+  color: #424242;
+  margin: 0 0 2rem;
+  overflow-wrap: break-word;
+  padding: 0;
+}
